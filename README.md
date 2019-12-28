@@ -1,5 +1,7 @@
 # Real-Time Motion Planning #
 
+*Real time motion planning with the help of aruco markers, computer vision and ESP8266 module.*
+
 <img src="https://github.com/ahad18abd/real_time_motion_planning/blob/master/Images%20and%20Video/Bots.jpeg" width="50%" height="50%">
 
 We designed this for __Inter Hostel Tech Competetion-Kriti 2019.__
