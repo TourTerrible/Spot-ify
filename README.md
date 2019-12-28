@@ -1,17 +1,11 @@
 # Real-Time Motion Planning #
-We designed this for *Inter Hostel Tech Competetion-Kriti 2019.*
+<img src="https://github.com/ahad18abd/real_time_motion_planning/blob/master/Images%20and%20Video/Bots.jpeg" width="50%" height="50%">
+* We designed this for __Inter Hostel Tech Competetion-Kriti 2019.__
 * The setup for this consists of:
     *  A camera placed on top.
     *  A local Wi-Fi server.
     *  4 Aruco Markers with known Id.
     
-## Working ##
-* The camera placed on top records the real time coordinates of Bots i.e Aruco markers.
-* Real-Time Position Coordinates and Goal Coordinates keep updating in file.
-* ESP8266(NodeMcu) access the file on local server and read coordinates by sending a GET request.
-* The Motion of Bot follows the following Finite State Machine(FSM) to reach desired goal position without Collision.
-![picture alt](https://github.com/ahad18abd/real_time_motion_planning/blob/master/Images%20and%20Video/Screenshot%20(70).png "FSM")
-
 ### BOT Making ###
 Each Bot is a three wheel system designed as small as possible to reduce the probability of collision.
 * Each Bot Consists of :
@@ -19,7 +13,17 @@ Each Bot is a three wheel system designed as small as possible to reduce the pro
     * Two Geared DC Motor and Wheel : Motion of the Bot
     * A Castor Wheel      : Helps in Stability and Rotation
     * A  Motor Driver (LM298) : control Motors
-    * 9V Duracell Batteries : Power Source
+    * 9V Duracell Batteries : Power Source    
+    
+## Working ##
+* The camera placed on top records the real time coordinates of Bots i.e Aruco markers.
+![picture alt](https://github.com/ahad18abd/real_time_motion_planning/blob/master/Images%20and%20Video/Screenshot%20from%202019-12-29%2000-24-44.png "camera")
+
+* Real-Time Position Coordinates and Goal Coordinates keep updating in file.
+* ESP8266(NodeMcu) access the file on local server and read coordinates by sending a GET request.
+* The Motion of Bot follows the following Finite State Machine(FSM) to reach desired goal position without Collision.
+![picture alt](https://github.com/ahad18abd/real_time_motion_planning/blob/master/Images%20and%20Video/Screenshot%20(70).png "FSM")
+
 
 ### Files and their Use ### 
 __NodeMcu Related__
