@@ -1,6 +1,9 @@
 # Real-Time Motion Planning #
+
 <img src="https://github.com/ahad18abd/real_time_motion_planning/blob/master/Images%20and%20Video/Bots.jpeg" width="50%" height="50%">
-* We designed this for __Inter Hostel Tech Competetion-Kriti 2019.__
+
+We designed this for __Inter Hostel Tech Competetion-Kriti 2019.__
+
 * The setup for this consists of:
     *  A camera placed on top.
     *  A local Wi-Fi server.
@@ -18,6 +21,7 @@ Each Bot is a three wheel system designed as small as possible to reduce the pro
 ## Working ##
 * The camera placed on top records the real time coordinates of Bots i.e Aruco markers.
 ![picture alt](https://github.com/ahad18abd/real_time_motion_planning/blob/master/Images%20and%20Video/Screenshot%20from%202019-12-29%2000-24-44.png "camera")
+<img src="https://github.com/ahad18abd/real_time_motion_planning/blob/master/Images%20and%20Video/Screenshot%20from%202019-12-29%2000-24-44.png" width="50%" height="50%">
 
 * Real-Time Position Coordinates and Goal Coordinates keep updating in file.
 * ESP8266(NodeMcu) access the file on local server and read coordinates by sending a GET request.
