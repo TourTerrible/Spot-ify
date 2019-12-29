@@ -1,7 +1,8 @@
 # Real-Time Motion Planning #
 
 *Real time motion planning with the help of aruco markers, computer vision and ESP8266 module.*
-We built a system of 4 robots, capable of communicating with each other and aligning themselves according to given patterns with as much accuracy and speed as attainable.Each bot is able to detect its initial coordinates and orientation and reach the final position (in any orientation). On reaching the final destination, your bots provides an indication/signal.
+
+We built a system of 4 robots, capable of communicating with each other and aligning themselves according to given patterns with as much accuracy and speed as attainable.Each bot is able to detect its initial coordinates and orientation and reach the final position (in any orientation). On reaching the final destination, Bots provide an indication/signal.
 
 <img src="https://github.com/ahad18abd/real_time_motion_planning/blob/master/Images%20and%20Video/Bots.jpeg" width="50%" height="50%">
 
@@ -28,7 +29,7 @@ Each Bot is a three wheel system designed as small as possible to reduce the pro
 
 * Real-Time Position Coordinates and Goal Coordinates keep updating in file.
 * ESP8266(NodeMcu) access the file on local server and read coordinates by sending a GET request.
-* The Motion of Bot follows the following Finite State Machine(FSM) to reach desired goal position without Collision.
+* The Motion of Bot follows the following Finite State Machine(FSM) to reach desired goal position without Collision:
 ![picture alt](https://github.com/ahad18abd/real_time_motion_planning/blob/master/Images%20and%20Video/Screenshot%20(70).png "FSM")
 
 
