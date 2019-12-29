@@ -1,6 +1,7 @@
 # Real-Time Motion Planning #
 
 *Real time motion planning with the help of aruco markers, computer vision and ESP8266 module.*
+We built a system of 4 robots, capable of communicating with each other and aligning themselves according to given patterns with as much accuracy and speed as attainable.Each bot is able to detect its initial coordinates and orientation and reach the final position (in any orientation). On reaching the final destination, your bots provides an indication/signal.
 
 <img src="https://github.com/ahad18abd/real_time_motion_planning/blob/master/Images%20and%20Video/Bots.jpeg" width="50%" height="50%">
 
