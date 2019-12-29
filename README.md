@@ -13,6 +13,12 @@ We designed this for __Inter Hostel Tech Competetion-Kriti 2019.__
     *  A local Wi-Fi server.
     *  4 Aruco Markers with known Id.
     
+### Dependencies and Requirements
+- Python 3.7
+- Arduino IDE
+- OpenCV
+- Aruco 3.0+
+    
 ### BOT Making ###
 Each Bot is a three wheel system designed as small as possible to reduce the probability of collision.
 * Each Bot Consists of :
