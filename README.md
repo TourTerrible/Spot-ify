@@ -37,7 +37,8 @@ Each Bot is a three wheel system designed as small as possible to reduce the pro
 * ESP8266(NodeMcu) access the file on local server and read coordinates by sending a GET request.
 * The Motion of Bot follows the following Finite State Machine(FSM) to reach desired goal position without Collision:
 ![picture alt](https://github.com/ahad18abd/real_time_motion_planning/blob/master/Images%20and%20Video/Screenshot%20(70).png "FSM")
-
+* The Control Architecture follows a closed loop control system.
+![picture alt](https://github.com/ahad18abd/real_time_motion_planning/blob/master/Screenshot%20from%202020-01-17%2000-09-12.png "block")
 
 ### Files and their Use ### 
 __NodeMcu Related__
