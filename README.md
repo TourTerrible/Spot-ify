@@ -1,4 +1,4 @@
-# Real-Time Motion Planning #
+# The 4 musketeers #
 
 *Real time motion planning with the help of aruco markers, computer vision and ESP8266 module.*
 
