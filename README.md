@@ -1,6 +1,6 @@
 # The 4 musketeers #
 
-*Real time motion planning with the help of aruco markers, computer vision and ESP8266 module.*
+*Reactive Control Model with FSM for navigation,with the help of aruco markers, computer vision and ESP8266 module.*
 
 We built a system of 4 robots, capable of communicating with each other and aligning themselves according to given patterns with as much accuracy and speed as attainable.Each bot is able to detect its initial coordinates and orientation and reach the final position (in any orientation). On reaching the final destination, Bots provide an indication/signal.
 
