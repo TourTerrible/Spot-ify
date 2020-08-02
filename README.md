@@ -1,4 +1,4 @@
-# The 4 musketeers #
+#Spot-ify: The 4 musketeers #
 
 *Reactive Control Model with FSM for navigation,with the help of aruco markers, computer vision and ESP8266 module.*
 
