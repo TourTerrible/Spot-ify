@@ -8,6 +8,14 @@ We built a system of 4 robots, capable of communicating with each other and alig
 
 We designed this for __Inter Hostel Tech Competetion-Kriti 2019.__
 
+## Theory ##
+There are two ways for robotics navigation:
+- Reactive Control
+- Map Based Navigation
+
+we used Reactive control to create behavioural model using FSM. It involves "Go to Goal Controller" and "Robot Avoidance".
+Go to goal control is responsible for keeping the bot towards goal location at a fixed speed and Robot Avoidance make sure that bots don't collide and incase of collison what to do.
+
 * The setup for this consists of:
     *  A camera placed on top.
     *  A local Wi-Fi server.
